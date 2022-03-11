@@ -5,7 +5,8 @@
  *
  * Return: 0
  *
- * /
+ */
+
 int main(void)
 {
 	char x[26] = "abcdefghijklmnopqrst";

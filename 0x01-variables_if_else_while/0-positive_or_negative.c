@@ -5,9 +5,9 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - check positive or negative
+ * main - Determine if n is positive or negative
  *
- * return - always 0
+ * Return - Always 0
  *
  */
 int main(void)

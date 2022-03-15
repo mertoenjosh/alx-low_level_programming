@@ -1,5 +1,5 @@
 #include "main.h"
-#include "_putchar.c"
+
 /**
  * main -print alphabet
  *
@@ -11,6 +11,10 @@ int main(void)
 	print_alphabet();
 	return (0);
 }
+
+/**
+ * print_alphabet - print lower alphabet
+ */
 
 void print_alphabet(void)
 {

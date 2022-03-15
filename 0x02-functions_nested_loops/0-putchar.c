@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include "main.h"
 
 /**
  * main - print _putchar
@@ -14,8 +15,8 @@ int main(void)
 
 	for (i = 0 ; i < strlen(str); i++)
 	{
-		putchar(str[i]);
+		_putchar(str[i]);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }

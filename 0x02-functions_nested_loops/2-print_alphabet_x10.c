@@ -1,3 +1,8 @@
+/**
+ * print_alphabet_x10 - prints lowercase alphabet 10 times
+ *
+ */
+
 void print_alphabet_x10(void)
 {
 	char alph[26] = "abcdefghijklmnopqrstuvwxyz";

@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_las_digit - prints lat digit
+ * print_last_digit - prints lat digit
  *
  * @n: passed to the function
  *
@@ -20,6 +20,6 @@ int print_last_digit(int n)
 	else
 	{
 		_putchar(i + 48);
-		return (i)
+		return (i);
 	}
 }

@@ -13,7 +13,7 @@ int main(void)
 	long int n1 = 0;
 	long int n2 = 1;
 	long int fib;
-	int sum;
+	long int sum;
 
 	for (i = 2; i < 100; i++)
 	{
@@ -32,7 +32,7 @@ int main(void)
 		n1 = n2;
 		n2 = fib;
 	}
-	printf("%d\n", sum);
+	printf("%ld\n", sum);
 	return (0);
 }
 

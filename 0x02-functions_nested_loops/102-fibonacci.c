@@ -15,10 +15,14 @@ int main(void)
 
 	for (i = 2; i <= 50; i++)
 	{
-		fib = n1 + n2;
-		printf("%ld, ", fib);
-		n1 = n2;
-		n2 = fib;
+		if (i == 50) {
+			printf("%ld", fib);
+		} else {
+			fib = n1 + n2;
+			printf("%ld, ", fib);
+			n1 = n2;
+			n2 = fib;
+		}
 	}
 	printf("\n");
 	return (0);

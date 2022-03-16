@@ -32,7 +32,7 @@ int main(void)
 		n1 = n2;
 		n2 = fib;
 	}
-	printf("%ld\n", sum);
+	printf("%d\n", sum);
 	return (0);
 }
 

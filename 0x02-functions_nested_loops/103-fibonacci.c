@@ -13,6 +13,7 @@ int main(void)
 	unsigned long int n1 = 0;
 	unsigned long int n2 = 1;
 	unsigned long int fib;
+	unsigned long int sum;
 
 	for (i = 2; i < 100; i++)
 	{
@@ -21,7 +22,7 @@ int main(void)
 		{
 			if (fib % 2 == 0)
 			{
-				printf("%ld, ", fib);
+				sum += fib;
 			}
 		}
 		else
@@ -31,7 +32,7 @@ int main(void)
 		n1 = n2;
 		n2 = fib;
 	}
-	printf("\n");
+	printf("%ld\n", sum);
 	return (0);
 }
 

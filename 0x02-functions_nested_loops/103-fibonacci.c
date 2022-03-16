@@ -13,7 +13,7 @@ int main(void)
 	unsigned long int n1 = 0;
 	unsigned long int n2 = 1;
 	unsigned long int fib;
-	unsigned long int sum;
+	unsigned int sum;
 
 	for (i = 2; i < 100; i++)
 	{

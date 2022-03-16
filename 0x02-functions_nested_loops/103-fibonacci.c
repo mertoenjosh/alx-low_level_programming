@@ -24,7 +24,7 @@ int main(void)
 				printf("%ld, ", fib);
 			}
 		}
-	       	else
+		else
 		{
 			break;
 		}

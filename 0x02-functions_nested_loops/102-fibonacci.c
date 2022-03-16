@@ -19,6 +19,7 @@ int main(void)
 		n1 = n2;
 		n2 = fib;
 	}
+	printf("\n");
 	return (0);
 }
 

@@ -8,14 +8,15 @@
 
 int main(void)
 {
-	int i, fib;
-	int n1 = 0;
-	int n2 = 1;
+	int i;
+	long int fib;
+	long int n1 = 0;
+	long int n2 = 1;
 
 	for (i = 2; i <= 50; i++)
 	{
 		fib = n1 + n2;
-		printf("%d, ", fib);
+		printf("%ld, ", fib);
 		n1 = n2;
 		n2 = fib;
 	}

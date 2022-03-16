@@ -9,11 +9,11 @@
 int main(void)
 {
 	int i;
-	unsigned long int limit = 4000000;
-	unsigned long int n1 = 0;
-	unsigned long int n2 = 1;
-	unsigned long int fib;
-	unsigned int sum;
+	long int limit = 4000000;
+	long int n1 = 0;
+	long int n2 = 1;
+	long int fib;
+	long int sum;
 
 	for (i = 2; i < 100; i++)
 	{

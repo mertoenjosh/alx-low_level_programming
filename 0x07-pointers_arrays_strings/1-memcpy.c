@@ -5,7 +5,7 @@
  *
  * @dest: destination memory
  * @src: source memory
- * @b: the constant byte to be set
+ * @n: the constant byte to be set
  *
  * Return: char pointer to dest memory area
  */

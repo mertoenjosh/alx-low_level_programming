@@ -5,21 +5,18 @@
  *
  * @s: memory area pointed
  * @n: first number of bytes to be filled
- * @b: the constant byte
+ * @b: the constant byte to be set
  *
  * Return: char pointer to memory area
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	int i = 0;
-	int j = n;
-
-	while (s[i])
+	while (n > 0)
 	{
-		if (j < s[i])
-			s[i] = b;
-		i++;
+		*s = b;
+		s++;
+		n--;
 	}
 	return (s);
 }

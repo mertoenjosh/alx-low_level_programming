@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-I.
+CFLAGS=-I. -Wall -Werror -Wextra -pedantic -std=gnu89
 DEPS = main.h
 
 %.o: %.c $(DEPS)

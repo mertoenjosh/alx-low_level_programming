@@ -9,7 +9,7 @@
 
 int _atoi(char *s)
 {
-	int len = 0;
+	int len = *s;
 
 	return (len);
 }

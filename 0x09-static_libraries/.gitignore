@@ -1,2 +1,3 @@
 main.c
 quote
+*.o

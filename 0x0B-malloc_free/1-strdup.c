@@ -12,23 +12,22 @@
 
 char *_strdup(char *str)
 {
-	int i, len;
-	char *nstr;
+	unsigned int i, size;
+	char *s;
+
+	size = _strlen(str);
+	s = malloc(size * sizeof(char));
 
 	if (str == NULL)
 		return (NULL);
 
-	len = _strlen(str);
-	nstr = malloc(len * sizeof(char));
-
 	i = 0;
-	while (i < len)
+	while (i < size)
 	{
-		nstr[i] = str[i];
+		s[i] = str[i];
 		i++;
 	}
-	free(nstr);
-	return (nstr);
+	return (s);
 }
 
 /**

@@ -49,7 +49,7 @@ char *_strdup(char *str)
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	struct dog *new_dog = malloc(sizeof(struct dog));
+	dog_t *new_dog = malloc(sizeof(dog_t));
 
 	if (new_dog == NULL)
 	{

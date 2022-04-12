@@ -2,14 +2,11 @@
 /**
  * main - prints name of the file
  *
- * @argc: number of args
- * @argv: array of the args
- *
  * Return: 0
  */
 
-int main(int argc __attribute__((unused)), char **argv)
+int main()
 {
-	printf("%s\n", argv[0]);
+	printf("%s\n", __FILE__);
 	return (0);
 }

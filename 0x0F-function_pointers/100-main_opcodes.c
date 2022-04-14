@@ -28,7 +28,6 @@ int main(int argc, char *argv[])
 		exit(2);
 	}
 	address = (char *)main;
-	
 	i = 0;
 
 	while (i < j - 1)

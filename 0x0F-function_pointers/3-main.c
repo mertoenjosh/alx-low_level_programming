@@ -10,7 +10,7 @@
  * Return: int of the exit status
  */
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int (*fun)(int, int);
 	int res;

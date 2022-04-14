@@ -36,6 +36,6 @@ int main(int argc, char **argv)
 	}
 	fun = get_op_func(argv[2]);
 	res = fun(atoi(argv[1]), atoi(argv[3]));
-	printf("%d", res);
+	printf("%d\n", res);
 	return (0);
 }

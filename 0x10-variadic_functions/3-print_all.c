@@ -14,7 +14,7 @@ void print_int(va_list args, char *s)
 /**
  * print_float - prints floats
  *
- * @: separator
+ * @s: separator
  * @args: arguments
  */
 

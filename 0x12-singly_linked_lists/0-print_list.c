@@ -10,8 +10,7 @@
 
 size_t print_list(const list_t *h)
 {
-	char *s;
-	unsigned int i = 0, len = 0;
+	int i = 0, len = 0;
 
 	if (!h)
 		return (NULL);

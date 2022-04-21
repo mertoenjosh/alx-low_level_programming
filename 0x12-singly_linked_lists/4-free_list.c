@@ -3,6 +3,7 @@
 /**
  * free_list - frees a node
  *
+ * @head: node passed
  */
 
 void free_list(list_t *head)

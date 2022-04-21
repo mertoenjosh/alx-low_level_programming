@@ -6,7 +6,6 @@
  *
  * @head: first node
  * @str: data to add in the node
- * 
  * Return: address of the new element or NULL
  */
 
@@ -29,4 +28,4 @@ list_t *add_node(list_t **head, const char *str)
 	*head = node;
 
 	return (*head);
-}
+

@@ -1,18 +1,18 @@
+
 section .data
-msg: db 'Hello, Holberton' 10
-msgSize equ $ - msg
+	fmt db	"%s", 10, 0
+	msg db	"Hello, Holberton", 0
 
-global start
+	section .text
+	extern printf
+	global main
 
-section .text
-
-	main:
-	mov rax, 4
-	mov rbx, 1
-	mov rcx, msg
-	mov rdx, msgSize
-	int 0x80
-	mov rax, 1
-	mov rbx, 0
-	int 0x80
+main:
+	push	rbp
+	mov	rsi, msg
+	mov	rdi, fmt
+	mov	rax, 0
+	call 	printf
+	pop	rbp
+	mov	rax, 0
 	ret

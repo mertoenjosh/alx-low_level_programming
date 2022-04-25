@@ -10,12 +10,12 @@
 int sum_listint(listint_t *head)
 {
 	int sum = 0;
-	listint_t *node = *head;
+	listint_t *node = head;
 
 	if (!node)
 		return (0);
 
-	while (node->next != NULL)
+	while (node)
 	{
 		sum += node->n;
 		node = node->next;

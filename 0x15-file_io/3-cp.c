@@ -3,6 +3,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
  * main - a copy of cp
@@ -13,7 +14,7 @@
  * Return: 1 or -1
  */
 
-int main(int argc, char **argv[])
+int main(int argc, char *argv[])
 {
 	int fd, fd_to;
 	int check_in, check_out;
